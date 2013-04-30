@@ -9,6 +9,7 @@
 
     <!-- Le styles -->
     <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/support.css" rel="stylesheet">
     <style>
       body {
         padding-top: 60px; /* 60px to make the container go all the way to the bottom of the topbar */
@@ -54,7 +55,20 @@
     <div class="container">
 
       <h1>Bootstrap Tuts <small><i class="icon-eye-open"></i>"All your attentions <strong>belong</strong> to me"<i class="icon-eye-open"></i></small></h1>
-      <p class="lead">Grid example<br> fluid-grid example</p>
+      <div class="row">
+        <div class="span12 show-grid">
+          <p class="lead">Grid example</p>
+          <div class="span1 show-grid">span 1</div>
+          <div class="span1 show-grid">span 1</div>
+        </div>
+      </div>
+      <div class="row-fluid">
+        <div class="span12 show-grid">
+          <p class="lead">Grid example</p>
+          <div class="span1 show-grid">span 1</div>
+          <div class="span1 show-grid">span 1</div>
+        </div>
+      </div>
       <hr>
       <div><p class="lead">Modal example</p>
         <!-- Button to trigger modal -->
